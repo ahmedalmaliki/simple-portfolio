@@ -1,0 +1,27 @@
+
+<div class="container">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>name</th>
+            <th>profile</th>
+            <th>address</th>
+            <th>phone</th>
+            <th>email</th>
+            <th>website</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for user in user %}
+            <tr>
+                <td>{{user.Fullname}}</td>
+                <td>{{user.Profile}}</td>
+                <td>{{user.Address}}</td>
+                <td>{{user.Phone }}</td>
+                <td>{{user.Email }}</td>
+                <td>{{user.Website }}</td>
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+</div>
