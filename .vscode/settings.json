@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/almaliki565/.local/share/virtualenvs/simple-portfolio-main-h1KqFZcL/bin/python"
+    "python.pythonPath": "/home/almaliki565/.local/share/virtualenvs/simple-portfolio-main-h1KqFZcL/bin/python",
+    "java.home": "/home/almaliki565/Downloads/OpenJDK11U-jdk_x64_linux_hotspot_11.0.8_10(1)/jdk-11.0.8+10"
 }

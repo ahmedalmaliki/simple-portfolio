@@ -11,8 +11,9 @@ def index(request):
         'user': user,
         'skills': skills,
         'projects': projects,
-        'experience': experience,
+        'experiences': experience,
         'languages': languages
+       
 
     }
     return render(request, 'main/index.html', context)

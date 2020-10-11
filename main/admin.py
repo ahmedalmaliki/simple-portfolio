@@ -1,6 +1,5 @@
 from django.contrib import admin
 from .models import User, Experience, Languages, Projects, Skills
-# Register your models here.
 
 class UserAdmin(admin.ModelAdmin):
     list_display = ['Fullname', 'Profile',  'Address', 'Phone', 'Email', 'Website']
@@ -16,7 +15,9 @@ class ProjectsAdmin(admin.ModelAdmin):
 
 class SkillsAdmin(admin.ModelAdmin):
     list_display = ['skillName']
-   
+
+
+
 # Register your models here.
 admin.site.register(User,UserAdmin)
 admin.site.register(Experience, ExperienceAdmin)

@@ -9,9 +9,12 @@ class Experience(models.Model):
 
 class Skills(models.Model):
     skillName = models.CharField(max_length= 225)
+    image = models.ImageField(null = True, blank = True)
 
 class Languages(models.Model):
     language = models.CharField(max_length= 225)
+
+
 
 class User(models.Model):
     Fullname = models.CharField(max_length= 225)
@@ -20,8 +23,11 @@ class User(models.Model):
     Phone = models.CharField(max_length= 225)
     Email = models.CharField(max_length= 225)
     Website = models.CharField(max_length= 225)
+    image = models.ImageField(null = True, blank = True)
 class Projects(models.Model):
     projectName = models.CharField(max_length= 225)
     projectLink = models.CharField(max_length= 225)
     projectDescription = models.CharField(max_length= 225)
+    image = models.ImageField(null = True, blank = True)
+
     
